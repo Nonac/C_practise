@@ -5,6 +5,7 @@ void main()
 	int max(int a, int b);
 	max(i, ++i) != 0 ? printf("from left to right") : printf("form right to left");
 }
+
 int max(int a, int b)
 {
 	int c;
