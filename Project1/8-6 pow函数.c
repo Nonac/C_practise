@@ -9,7 +9,7 @@ void main()
 }
 double pownew(double x, double y)
 {
-	double result = 1;
+	double result = 1,sqrtnew(double);
 	if (y >= 0)
 	{
 		while (y / 1 > 0)
@@ -19,7 +19,7 @@ double pownew(double x, double y)
 		}		
 		if (y != 0)
 		{
-			result = result * sqrt(pownew(x, 2*y));
+			result = result * sqrtnew(pownew(x, 2*y));
 		}
 	}
 	else 
@@ -27,4 +27,8 @@ double pownew(double x, double y)
 		result = pownew((1 / x), ((-1) * y));
 	}
 	return result;
+}
+double sqrtnew(double x, double y)
+{
+	return pow(x, 0.5);
 }
