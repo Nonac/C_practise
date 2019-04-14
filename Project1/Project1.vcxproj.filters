@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="8-4 函数参数调用顺序检测.c">
+    <ClCompile Include="8-6 pow函数.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
