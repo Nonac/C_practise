@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="8-6 pow函数.c">
+    <ClCompile Include="8-8 汉诺塔.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
