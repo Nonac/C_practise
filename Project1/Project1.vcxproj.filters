@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="8-10 字符串删去特定字符 .c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="8-10 字符串删去特定字符2.c">
+    <ClCompile Include="9-2 动态内存n个整数的大小比较输出.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
