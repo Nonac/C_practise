@@ -19,7 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="8-8 汉诺塔.c" />
+    <ClCompile Include="8-10 字符串删去特定字符 .c" />
+    <ClCompile Include="8-10 字符串删去特定字符2.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
