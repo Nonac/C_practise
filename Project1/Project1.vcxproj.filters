@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="9-2 动态内存n个整数的大小比较输出.c">
+    <ClCompile Include="9-3 数组中n个元素倒序存放.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
