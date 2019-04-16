@@ -8,7 +8,7 @@ void main()
 	sort(name, n);
 	print(name, n);
 }
-void sort(char* name, int n)
+void sort(char* name[], int n)
 {
 	char* temp;
 	int i, j, k;
