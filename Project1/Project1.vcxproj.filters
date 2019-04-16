@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="9-3 数组中n个元素倒序存放.c">
+    <ClCompile Include="9-5 字符比较.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
