@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="9-5 字符比较.c">
+    <ClCompile Include="Leetcode-7-整数反转.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

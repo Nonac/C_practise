@@ -26,7 +26,6 @@ void sort(char* name[], int n)
 				temp = name[i];
 				name[i] = name[k];
 				name[k] = temp;
-
 			}
 		}
 	}
