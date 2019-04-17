@@ -17,4 +17,9 @@
       <UniqueIdentifier>{bb0f8758-d268-4750-9a13-e729bc6e69d8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Leetcode\268. 缺失数字.c">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
