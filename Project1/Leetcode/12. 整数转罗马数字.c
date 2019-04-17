@@ -1,82 +1,70 @@
-#define I 1
-#define V 5
-#define X 10
-#define L 50
-#define C 100
-#define D 500
-#define M 1000
-#include<stdio.h>
-#include <string.h>
-void main()
-{
-	char* intToRoman(int num);
-	printf("%c", intToRoman(3));
-}
 char* intToRoman(int num) {
-	char res = { '\0' };
-	while (num / M)
+	char* res = calloc(100, sizeof(char));
+	while (num / 1000)
 	{
-		num -= M;
-		strcat(res, 'M');
+		num -= 1000;
+		strcat(res, "M");
 	}
-	while (num > M - C)
+	while (num / 900)
 	{
-		num -= (M - C);
-		strcpy(res, 'CM');
+		num -= 900;
+		strcat(res, "CM");
 	}
-	while (num > D)
+	while (num / 500)
 	{
-		num -= D;
-		strcpy(res, 'D');
+		num -= 500;
+		strcat(res, "D");
 	}
-	while (num > (D-C))
+	while (num / 400)
 	{
-		num -= C;
-		strcpy(res, 'CD');
+		num -= 400;
+		strcat(res, "CD");
 	}
-	while (num > C)
+	while (num / 100)
 	{
-		num -= C;
-		strcpy(res, 'C');
+		num -= 100;
+		strcat(res, "C");
 	}
-	while (num > (C - X))
+	while (num / 90)
 	{
-		num -= (C - X);
-		strcpy(res, 'XC');
+		num -= 90;
+		strcat(res, "XC");
 	}
-	while (num > L)
+	while (num / 50)
 	{
-		num -= L;
-		strcpy(res, 'L');
+		num -= 50;
+		strcat(res, "L");
 	}
-	while (num > (L - X))
+	while (num / 40)
 	{
-		num -= (L - X);
-		strcpy(res, 'XL');
+		num -= 40;
+		strcat(res, "XL");
 	}
-	while (num > X)
+	while (num / 10)
 	{
-		num -= X;
-		strcpy(res, 'X');
+		num -= 10;
+		strcat(res, "X");
 	}
-	while (num > (X - I))
+	while (num / 9)
 	{
-		num -= (X - I);
-		strcpy(res, 'IX');
+		num -= 9;
+		strcat(res, "IX");
 	}
-	while (num > V)
+	while (num / 5)
 	{
-		num -= V;
-		strcpy(res, 'V');
+		num -= 5;
+		strcat(res, "V");
 	}
-	while (num > (V - I))
+	while (num / 4)
 	{
-		num -= (V - I);
-		strcpy(res, 'IV');
+		num -= 4;
+		strcat(res, "IV");
 	}
-	while (num > I)
+	while (num / 1)
 	{
-		num -= I;
-		strcpy(res, 'I');
+		num -= 1;
+		strcat(res, "I");
 	}
+	return res;
+	free(res);
 }
