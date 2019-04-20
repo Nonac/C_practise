@@ -18,7 +18,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="66. 加一.c">
+    <ClCompile Include="Leetcode\67. 二进制求和.c">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
   </ItemGroup>
