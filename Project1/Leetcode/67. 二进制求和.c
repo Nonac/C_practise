@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include <stdlib.h>
-void main()
+/*void main()
 {
 	char* addBinary(char* a, char* b), * p;
 	char* a = "1110001", * b = "110100101";
@@ -10,7 +10,7 @@ void main()
 		printf("%c", *(p+i));
 	}
 	
-}
+}*/
 char* addBinary(char* a, char* b) {
 	int i, j, temp, temp1, lenA, lenB, len;
 	char* str;

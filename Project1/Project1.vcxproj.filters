@@ -13,13 +13,5 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\Leetcode">
-      <UniqueIdentifier>{bb0f8758-d268-4750-9a13-e729bc6e69d8}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Leetcode\67. 二进制求和.c">
-      <Filter>源文件\Leetcode</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
