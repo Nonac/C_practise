@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Clion_practise" targetName="Clion_practise" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="57b2bf37-7183-471e-9089-cdb809b8608f" name="Default Changelist" comment="change IDE">
+      <change afterPath="$PROJECT_DIR$/.idea/Clion_practise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Clion_practise.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Clion_practise.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Clion_practise.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Clion_practise.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Clion_practise.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Clion_practise.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Clion_practise.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Clion_practise.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Clion_practise.dir/main.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Clion_practise.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Clion_practise" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Clion_practise.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/++.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/10-1 宏定义.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/10-2 不使用循环进行数字打印.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/11-1 c语言链表的实现.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/11-2 c链表.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/1_2 求sin值.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/1_3 两数取最大.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/3_1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/3_2 整型.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/4-10 三整数输出maxmin.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/4-14.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/4-14闰年判断.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/4-15运输公司费用计算.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/4-3 max.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/4-4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/4-6  三个数从小到大输出.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/4-7.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/4-9.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/5-4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/5-6 不同的三位数.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/5-7 break and continue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/5-8 斐波那契数列.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/5-8 素数检验.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/5-9 素数打印.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/5.5循环嵌套.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/5.7 泰勒展开式求派.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/6-1 数组斐波那契数列.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/6-2 冒泡排序.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/6-3 二维数组输出最大.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/6-4 二维数组十字星输出.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/6-5 二分法.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/8-10 字符串删去特定字符 .c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/8-10 字符串删去特定字符2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/8-3 函数返回值类型不同.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/8-4 函数参数调用顺序检测.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/8-5 对被调用的函数做生命.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/8-6 pow函数.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/8-7 统计字符.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/8-8 汉诺塔.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/9-1 指针.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/9-2 动态内存n个整数的大小比较输出.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/9-3 数组中n个元素倒序存放.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/9-4 二维数组指针.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/9-5 字符串指针.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/9-5 字符比较.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Hello World.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/12. 整数转罗马数字.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/13. 罗马数字转整数.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/136. 只出现一次的数字.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/14. 最长公共前缀.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/190. 颠倒二进制位.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/191. 位1的个数.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/231. 2的幂.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/26. 删除排序数组中的重复项.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/268. 缺失数字.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/27. 移除元素.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/278. 第一个错误的版本.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/283. 移动零.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/326. 3的幂.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/342. 4的幂.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/35. 搜索插入位置.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/38. 报数.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/389. 找不同.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/66. 加一.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/67. 二进制求和.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/693. 交替位二进制数.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/7-整数反转.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Leetcode/9. 回文数.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Project1.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/Project1.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/cal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/char.c                                                                                                                                         char.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/getchar.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/sizeof.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="810" />
+    <option name="y" value="303" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Clion_practise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clion_practise" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Clion_practise" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion_practise" TARGET_NAME="Clion_practise" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion_practise" RUN_TARGET_NAME="Clion_practise">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57b2bf37-7183-471e-9089-cdb809b8608f" name="Default Changelist" comment="" />
+      <created>1559996349828</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559996349828</updated>
+      <workItem from="1559996351584" duration="344000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="344000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="140" y="20" width="2740" height="1600" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CMake" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32949308" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297546" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change IDE" />
+    <option name="LAST_COMMIT_MESSAGE" value="change IDE" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

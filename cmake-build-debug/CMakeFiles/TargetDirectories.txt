@@ -1,0 +1,3 @@
+/home/nonac/CLionProjects/Clion_practise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nonac/CLionProjects/Clion_practise/cmake-build-debug/CMakeFiles/Clion_practise.dir
+/home/nonac/CLionProjects/Clion_practise/cmake-build-debug/CMakeFiles/edit_cache.dir
