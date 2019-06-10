@@ -1,3 +1,6 @@
+//
+// Created by nonac on 19-6-10.
+//
 #include <stdio.h>
 #include<malloc.h>
 #include <stdlib.h>
@@ -71,7 +74,7 @@ struct student *creat()
         }
         else
         {
-           p2->next=p1;
+            p2->next=p1;
         }
 
         p2 = p1;
@@ -132,7 +135,7 @@ struct student *del(struct student *head,int delnum)
         n = n-1;
     }
 
-END:
+    END:
     return head;
 }
 
