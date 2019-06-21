@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Clion_practise.dir/main.c.o"
+  "CMakeFiles/Clion_practise.dir/main.c.obj"
   "Clion_practise.pdb"
-  "Clion_practise"
+  "Clion_practise.exe"
+  "Clion_practise.exe.manifest"
+  "libClion_practise.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
