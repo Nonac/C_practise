@@ -1,3 +1,3 @@
-D:/Coding Practise/Clion_practise/cmake-build-debug/CMakeFiles/Clion_practise.dir
-D:/Coding Practise/Clion_practise/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Coding Practise/Clion_practise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/nickyang/CLionProjects/Clion_practise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/nickyang/CLionProjects/Clion_practise/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/nickyang/CLionProjects/Clion_practise/cmake-build-debug/CMakeFiles/Clion_practise.dir

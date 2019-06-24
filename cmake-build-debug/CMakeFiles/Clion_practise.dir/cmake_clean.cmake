@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Clion_practise.dir/main.c.obj"
+  "CMakeFiles/Clion_practise.dir/main.c.o"
+  "CMakeFiles/Clion_practise.dir/history/Leetcode/21.合并两个有序链表.c.o"
   "Clion_practise.pdb"
-  "Clion_practise.exe"
-  "Clion_practise.exe.manifest"
-  "libClion_practise.dll.a"
+  "Clion_practise"
 )
 
 # Per-language clean rules from dependency scanning.
