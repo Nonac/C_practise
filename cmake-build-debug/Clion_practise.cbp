@@ -79,6 +79,9 @@
 		<Unit filename="/Users/nickyang/CLionProjects/Clion_practise/history/Leetcode/21.合并两个有序链表.c">
 			<Option target="Clion_practise"/>
 		</Unit>
+		<Unit filename="/Users/nickyang/CLionProjects/Clion_practise/history/Leetcode/83. 删除排序链表中的重复元素.c">
+			<Option target="Clion_practise"/>
+		</Unit>
 		<Unit filename="/Users/nickyang/CLionProjects/Clion_practise/main.c">
 			<Option target="Clion_practise"/>
 		</Unit>
