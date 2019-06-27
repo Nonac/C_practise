@@ -3,4 +3,4 @@ project(Clion_practise C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Clion_practise main.c history/Leetcode/21.合并两个有序链表.c "history/Leetcode/83. 删除排序链表中的重复元素.c")
+add_executable(Clion_practise main.c history/Leetcode/21.合并两个有序链表.c "history/Leetcode/83. 删除排序链表中的重复元素.c" history/循环链表的创建、插入、删除及查找.cpp)
