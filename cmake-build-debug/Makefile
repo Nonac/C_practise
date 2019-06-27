@@ -123,60 +123,6 @@ Clion_practise/fast:
 	$(MAKE) -f CMakeFiles/Clion_practise.dir/build.make CMakeFiles/Clion_practise.dir/build
 .PHONY : Clion_practise/fast
 
-history/Leetcode/21.合并两个有序链表.o: history/Leetcode/21.合并两个有序链表.c.o
-
-.PHONY : history/Leetcode/21.合并两个有序链表.o
-
-# target to build an object file
-history/Leetcode/21.合并两个有序链表.c.o:
-	$(MAKE) -f CMakeFiles/Clion_practise.dir/build.make CMakeFiles/Clion_practise.dir/history/Leetcode/21.合并两个有序链表.c.o
-.PHONY : history/Leetcode/21.合并两个有序链表.c.o
-
-history/Leetcode/21.合并两个有序链表.i: history/Leetcode/21.合并两个有序链表.c.i
-
-.PHONY : history/Leetcode/21.合并两个有序链表.i
-
-# target to preprocess a source file
-history/Leetcode/21.合并两个有序链表.c.i:
-	$(MAKE) -f CMakeFiles/Clion_practise.dir/build.make CMakeFiles/Clion_practise.dir/history/Leetcode/21.合并两个有序链表.c.i
-.PHONY : history/Leetcode/21.合并两个有序链表.c.i
-
-history/Leetcode/21.合并两个有序链表.s: history/Leetcode/21.合并两个有序链表.c.s
-
-.PHONY : history/Leetcode/21.合并两个有序链表.s
-
-# target to generate assembly for a file
-history/Leetcode/21.合并两个有序链表.c.s:
-	$(MAKE) -f CMakeFiles/Clion_practise.dir/build.make CMakeFiles/Clion_practise.dir/history/Leetcode/21.合并两个有序链表.c.s
-.PHONY : history/Leetcode/21.合并两个有序链表.c.s
-
-history/Leetcode/83._删除排序链表中的重复元素.o: history/Leetcode/83._删除排序链表中的重复元素.c.o
-
-.PHONY : history/Leetcode/83._删除排序链表中的重复元素.o
-
-# target to build an object file
-history/Leetcode/83._删除排序链表中的重复元素.c.o:
-	$(MAKE) -f CMakeFiles/Clion_practise.dir/build.make CMakeFiles/Clion_practise.dir/history/Leetcode/83._删除排序链表中的重复元素.c.o
-.PHONY : history/Leetcode/83._删除排序链表中的重复元素.c.o
-
-history/Leetcode/83._删除排序链表中的重复元素.i: history/Leetcode/83._删除排序链表中的重复元素.c.i
-
-.PHONY : history/Leetcode/83._删除排序链表中的重复元素.i
-
-# target to preprocess a source file
-history/Leetcode/83._删除排序链表中的重复元素.c.i:
-	$(MAKE) -f CMakeFiles/Clion_practise.dir/build.make CMakeFiles/Clion_practise.dir/history/Leetcode/83._删除排序链表中的重复元素.c.i
-.PHONY : history/Leetcode/83._删除排序链表中的重复元素.c.i
-
-history/Leetcode/83._删除排序链表中的重复元素.s: history/Leetcode/83._删除排序链表中的重复元素.c.s
-
-.PHONY : history/Leetcode/83._删除排序链表中的重复元素.s
-
-# target to generate assembly for a file
-history/Leetcode/83._删除排序链表中的重复元素.c.s:
-	$(MAKE) -f CMakeFiles/Clion_practise.dir/build.make CMakeFiles/Clion_practise.dir/history/Leetcode/83._删除排序链表中的重复元素.c.s
-.PHONY : history/Leetcode/83._删除排序链表中的重复元素.c.s
-
 main.o: main.c.o
 
 .PHONY : main.o
@@ -213,12 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Clion_practise"
-	@echo "... history/Leetcode/21.合并两个有序链表.o"
-	@echo "... history/Leetcode/21.合并两个有序链表.i"
-	@echo "... history/Leetcode/21.合并两个有序链表.s"
-	@echo "... history/Leetcode/83._删除排序链表中的重复元素.o"
-	@echo "... history/Leetcode/83._删除排序链表中的重复元素.i"
-	@echo "... history/Leetcode/83._删除排序链表中的重复元素.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -10,7 +10,7 @@
  * };
  */
 
-
+/*
 struct ListNode* deleteDuplicates(struct ListNode* head){
     struct ListNode *p1= (struct ListNode *)malloc(sizeof(struct ListNode));
     if(!head ||head->next == NULL) return head;
@@ -29,3 +29,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     }
     return head;
 }
+ */

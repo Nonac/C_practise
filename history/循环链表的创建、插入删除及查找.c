@@ -1,3 +1,7 @@
+/*//
+// Created by Nick Yang on 2019-06-27.
+//
+
 //
 // Created by Nick Yang on 2019-06-27.
 //
@@ -6,14 +10,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*链表存储结构的定义*/
+/*链表存储结构的定义
 typedef struct ClinkList
 {
     int data;
     struct ClinkList *next;
 }node;
 
-/*插入节点*/
+/*插入节点
 void ds_insert(node **pNode,int i)
 {
     node *temp;
@@ -54,7 +58,7 @@ void ds_insert(node **pNode,int i)
 }
 
 
-/*删除*/
+/*删除
 void ds_delete(node **pNode,int i)
 {
     node *target,*temp;
@@ -81,7 +85,7 @@ void ds_delete(node **pNode,int i)
     }
 }
 
-/*返回节点所在的位置*/
+/*返回节点所在的位置
 int ds_search(node *pNode,int elem)
 {
     node *target;
@@ -97,7 +101,7 @@ int ds_search(node *pNode,int elem)
 
 
 
-/*初始化循环链表*/
+/*初始化循环链表
 void ds_init(node **pNode)
 {
     int item;
@@ -134,3 +138,4 @@ void ds_init(node **pNode)
         }
     }
 }
+*/

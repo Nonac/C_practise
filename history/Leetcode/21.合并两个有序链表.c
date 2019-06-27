@@ -10,7 +10,7 @@
  * };
  */
 
-
+/*
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
 
     struct ListNode* head = (struct ListNode*)malloc(sizeof(struct ListNode));
@@ -34,3 +34,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     free(head);
     return t;
 }
+ */
