@@ -42,9 +42,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57b2bf37-7183-471e-9089-cdb809b8608f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/history/约瑟夫环-魔术师发牌.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/双向循环链表.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Clion_practise" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -63,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="38" column="12" selection-end-line="67" selection-end-column="1" />
+            <state relative-caret-position="460">
+              <caret line="61" column="13" lean-forward="true" selection-end-line="62" selection-end-column="1" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -73,10 +72,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/history/约瑟夫环-魔术师发牌.c">
+        <entry file="file://$PROJECT_DIR$/history/双向循环链表.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="751">
-              <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+            <state relative-caret-position="523">
+              <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
               <folding>
                 <element signature="e#46#65#0" expanded="true" />
               </folding>
@@ -102,8 +101,10 @@
         <option value="$PROJECT_DIR$/history/Leetcode/83. 删除排序链表中的重复元素.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/history/约瑟夫环.c" />
-        <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/history/约瑟夫环-魔术师发牌.c" />
+        <option value="$PROJECT_DIR$/history/拉丁字符环.c" />
+        <option value="$PROJECT_DIR$/main.c" />
+        <option value="$PROJECT_DIR$/history/双向循环链表.c" />
       </list>
     </option>
   </component>
@@ -164,6 +165,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/history/C语言练习" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/history" />
     </key>
@@ -209,7 +211,7 @@
       <workItem from="1561683796878" duration="283000" />
       <workItem from="1561765987336" duration="595000" />
       <workItem from="1561767317729" duration="1139000" />
-      <workItem from="1561947955337" duration="3956000" />
+      <workItem from="1561947955337" duration="7839000" />
     </task>
     <task id="LOCAL-00001" summary="change IDE">
       <created>1559996897276</created>
@@ -288,11 +290,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561617950531</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Clinklist">
+      <created>1561961679982</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1561961679982</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Clinklist">
+      <created>1561963169066</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1561963169066</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39173000" />
+    <option name="totallyTimeSpent" value="43056000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -312,7 +328,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32949308" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25762713" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25762713" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39887005" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -354,7 +370,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/1.txt" />
-    <entry file="file://$PROJECT_DIR$/history/11_4 文件读写.c">
+    <entry file="file://$PROJECT_DIR$/history/C语言练习/11_4 文件读写.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
@@ -365,7 +381,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/history/循环链表的创建、插入、删除及查找.c" />
-    <entry file="file://$PROJECT_DIR$/history/11_3 链表的构造&amp;插入&amp;删除.c">
+    <entry file="file://$PROJECT_DIR$/history/C语言练习/11_3 链表的构造&amp;插入&amp;删除.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="182" column="1" selection-start-line="182" selection-start-column="1" selection-end-line="182" selection-end-column="1" />
@@ -408,6 +424,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/第十八讲 线性表13（课件+源代码）/answer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1055" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -415,25 +436,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/第十八讲 线性表13（课件+源代码）/answer.c">
+    <entry file="file://$PROJECT_DIR$/history/拉丁字符环.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1055" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="38" column="12" selection-end-line="67" selection-end-column="1" />
+        <state relative-caret-position="751">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#46#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/history/约瑟夫环-魔术师发牌.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+        <state relative-caret-position="1634">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="61" column="13" lean-forward="true" selection-end-line="62" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/history/双向循环链表.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
           <folding>
             <element signature="e#46#65#0" expanded="true" />
           </folding>
