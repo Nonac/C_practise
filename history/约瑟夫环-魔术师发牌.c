@@ -1,7 +1,3 @@
-//
-// Created by Nick Yang on 2019-07-01.
-//
-
 #include <stdlib.h>
 #include <stdio.h>
 #define CardNumber 13
@@ -52,6 +48,7 @@ void Count(node head)
             cur->data = card;
             card++;
         }
+        i=0;
     }
 }
 
