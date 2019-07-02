@@ -55,7 +55,7 @@ int main()
     int len,i,sum=0;
 
     InitStack(&s);
-
+    
     printf("请输入二进制数，输入#符号表示结束！\n");
     scanf("%c",&c);
 
