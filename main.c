@@ -1,17 +1,16 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <ctype.h>
 
 #define STACK_INIT_SIZE 20
-#define STACKINCRESEMENT 10
-#define MAXBUFFER 10
+#define STACKINCREMENT 10
 
-typedef double ElemType;
+typedef char ElemType;
 typedef struct Stack
 {
-    ElemType *base;
     ElemType *top;
-    int StackSize;
+    ElemType *base;
+    int stacklen;
 }Stack;
 
 void StackInit(Stack *s)
@@ -19,28 +18,30 @@ void StackInit(Stack *s)
     s->base=(ElemType *)malloc(STACK_INIT_SIZE* sizeof(ElemType));
     if(!s->base) exit(0);
     s->top=s->base;
-    s->StackSize=STACK_INIT_SIZE;
+    s->stacklen=STACK_INIT_SIZE;
 }
 
 void Push(Stack *s,ElemType e)
 {
-    if(s->top-s->base>=s->StackSize)
+    if(s->top-s->base>=s->stacklen)
     {
-        s->base=(ElemType *)realloc(s->base,(STACKINCRESEMENT+s->StackSize)* sizeof(ElemType));
-        if(!s->base) exit(0);
-        s->top=s->base+s->StackSize;
-        s->StackSize=s->StackSize+STACKINCRESEMENT;
+        s->base=(ElemType *)realloc(s->base,(STACKINCREMENT+s->stacklen)* sizeof(ElemType));
+        if (!s->base) exit(0);
+        s->top=s->base+s->stacklen;
+        s->stacklen=s->stacklen+STACKINCREMENT;
     }
-    *(s->top)=e;
+    *(s->top) = e;
     s->top++;
 }
+
 void Pop(Stack *s,ElemType *e)
 {
-    if(s->top==s->base) return;
-    *e = *--(s->top);
+    if(s->top==s->base)
+        return;
+    *e=*--(s->top);
 }
 
-int StackLen(Stack s)
+int Stacklen(Stack s)
 {
     return (s.top-s.base);
 }
@@ -48,60 +49,56 @@ int StackLen(Stack s)
 int main()
 {
     Stack s;
-    char c;
-    double x,y;
-    char str[MAXBUFFER];
-    int i=0;
-
+    char c,e;
     StackInit(&s);
-
-    printf("请输入逆波兰表达式，以#结束：\n");
+    printf("请输入中缀表达式，以#结束：\n");
     scanf("%c",&c);
 
-    while (c!='#')
+    while (c!="#")
     {
-        while (isdigit(c)||c=='.') {
-            str[i++] = c;
-            str[i] = '\0';
-            if(i>=10) printf("\nERROR!\n");
+        while (isdigit(c))
+        {
+            printf("%c",c);
             scanf("%c",&c);
-            if(c == ' ') {
-                x =atof(str);
-                Push(&s,x);
-                i=0;
-                break;
+            if(!isdigit(c)) printf(" ");
+        }
+        if(c==')')
+        {
+            Pop(&s,&e);
+            while (e!='(')
+            {
+                printf("%c",e);
+                Pop(&s,&e);
             }
         }
-        switch (c)
+        else if(c=='+'||c=='-')
         {
-            case '+':
-                Pop(&s,&y);
-                Pop(&s,&x);
-                Push(&s,y+x);
-                break;
-            case '-':
-                Pop(&s,&x);
-                Pop(&s,&y);
-                Push(&s,y-x);
-                break;
-            case '*':
-                Pop(&s,&x);
-                Pop(&s,&y);
-                Push(&s,y*x);
-                break;
-            case '/':
-                Pop(&s,&x);
-                Pop(&s,&y);
-                if(x!=0) Push(&s,y/x);
-                else printf("\nERROR!\n");
-                break;
+            if(Stacklen(s)) Push(&s,c);
+            else
+            {
+                do
+                {
+                    Pop(&s,&e);
+                    if(e=='(') Push(&s,e);
+                    else printf("%c",e);
+                }while(Stacklen(s)||e!='(');
+            }
         }
+        else if (c == '*' || c == '/' || c == '(')
+        {
+            Push(&s, c);
+        }
+        else
+            {
+                if (c == '#') break;
+                else printf("\nERROR\n");
+            }
         scanf("%c",&c);
     }
-    //getchar();
-
-    Pop(&s,&x);
-    printf("结果是：%f\n",x);
-
+    while (Stacklen(s))
+    {
+        Pop(&s,&e);
+        printf("%c",e);
+    }
     return 0;
 }
