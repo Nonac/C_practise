@@ -42,6 +42,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57b2bf37-7183-471e-9089-cdb809b8608f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/history/中缀表达式转换逆波兰表达式.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
@@ -58,13 +59,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+            <state relative-caret-position="666">
+              <caret line="96" column="5" lean-forward="true" selection-end-line="103" selection-end-column="1" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/history/中缀表达式转换逆波兰表达式.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+              <folding>
+                <element signature="e#46#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,6 +108,7 @@
         <option value="$PROJECT_DIR$/history/Leetcode/20. 有效的括号     .c" />
         <option value="$PROJECT_DIR$/history/简易逆波兰表达式计算器.c" />
         <option value="$PROJECT_DIR$/main.c" />
+        <option value="$PROJECT_DIR$/history/中缀表达式转换逆波兰表达式.c" />
       </list>
     </option>
   </component>
@@ -205,7 +219,9 @@
       <workItem from="1562035085937" duration="8370000" />
       <workItem from="1562126284905" duration="9840000" />
       <workItem from="1562201533313" duration="904000" />
-      <workItem from="1562207277735" duration="5028000" />
+      <workItem from="1562207277735" duration="5050000" />
+      <workItem from="1562373019631" duration="118000" />
+      <workItem from="1562460186957" duration="957000" />
     </task>
     <task id="LOCAL-00001" summary="change IDE">
       <created>1559996897276</created>
@@ -333,11 +349,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562158082009</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Stack">
+      <created>1562235511962</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1562235511963</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69048000" />
+    <option name="totallyTimeSpent" value="70145000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -352,12 +375,12 @@
     <frame x="0" y="23" width="1920" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15867944" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16187434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32949308" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4834931" visible="true" weight="0.2937853" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4834931" visible="true" weight="0.2937853" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48509052" weight="0.39774013" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -560,10 +583,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+        <state relative-caret-position="666">
+          <caret line="96" column="5" lean-forward="true" selection-end-line="103" selection-end-column="1" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/history/中缀表达式转换逆波兰表达式.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+          <folding>
+            <element signature="e#46#64#0" expanded="true" />
           </folding>
         </state>
       </provider>

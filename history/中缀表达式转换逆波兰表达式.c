@@ -1,3 +1,7 @@
+//
+// Created by Nick Yang on 2019-07-07.
+//
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -89,10 +93,10 @@ int main()
             Push(&s, c);
         }
         else
-            {
-                if (c == '#') break;
-                else printf("\nERROR\n");
-            }
+        {
+            if (c == '#') break;
+            else printf("\nERROR\n");
+        }
         scanf("%c",&c);
     }
     while (Stacklen(s))
