@@ -1,4 +1,14 @@
 #include<stdio.h>
+
+/*
+int Fib(int i)
+{
+    if(i<2) return i==0?0:1;
+    return Fib(i-1)+Fib(i-2);
+}
+ *
+ */
+
 void main()
 {
 	int n,fia=1,fib=1,i,fic;
