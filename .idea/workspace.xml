@@ -42,6 +42,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57b2bf37-7183-471e-9089-cdb809b8608f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/history/汉诺塔.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
@@ -61,11 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="166">
+              <caret line="101" column="13" lean-forward="true" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -98,6 +96,7 @@
         <option value="$PROJECT_DIR$/history/队列.c" />
         <option value="$PROJECT_DIR$/history/C语言练习/5-8 斐波那契数列.c" />
         <option value="$PROJECT_DIR$/history/递归_倒序字符串.c" />
+        <option value="$PROJECT_DIR$/history/汉诺塔.c" />
         <option value="$PROJECT_DIR$/main.c" />
       </list>
     </option>
@@ -118,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,7 +143,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,7 +219,8 @@
       <workItem from="1562744541090" duration="1022000" />
       <workItem from="1563853649976" duration="544000" />
       <workItem from="1563935103167" duration="1295000" />
-      <workItem from="1563954896061" duration="2142000" />
+      <workItem from="1563954896061" duration="3917000" />
+      <workItem from="1564389976721" duration="4711000" />
     </task>
     <task id="LOCAL-00001" summary="change IDE">
       <created>1559996897276</created>
@@ -383,11 +383,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563947311535</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Hanoi">
+      <created>1563957236449</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1563957236449</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81065000" />
+    <option name="totallyTimeSpent" value="87551000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -400,21 +407,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="977" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.171459" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17305644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32949308" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7507987" visible="true" weight="0.26553673" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7465389" visible="true" weight="0.29604518" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48509052" weight="0.39774013" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49840257" weight="0.3299435" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4978701" weight="0.3299435" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.61874336" weight="0.32655367" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.613951" weight="0.32655367" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49893504" weight="0.32768363" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.24920128" side_tool="true" visible="true" weight="0.26553673" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.25346112" side_tool="true" visible="true" weight="0.29604518" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49946752" weight="0.32881355" />
       <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49946752" weight="0.3299435" />
       <window_info anchor="bottom" id="TeamCity" order="13" sideWeight="0.49946752" weight="0.3299435" />
@@ -613,13 +621,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/history/汉诺塔.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="e#46#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="166">
+          <caret line="101" column="13" lean-forward="true" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
         </state>
       </provider>
     </entry>
