@@ -16,8 +16,10 @@ char *countAndSay(int n) {
 			}
 			else
 			{
+
+
 				temp = *(p + i);
-				/*��취����һ���ַ�������������sum+temp������ȥ*/
+
 			}
 		}
 	}

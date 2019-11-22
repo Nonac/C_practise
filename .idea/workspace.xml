@@ -43,7 +43,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57b2bf37-7183-471e-9089-cdb809b8608f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/history/Leetcode/104. 二叉树的最大深度.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/Leetcode/100. 相同的树 .c" beforeDir="false" afterPath="$PROJECT_DIR$/history/Leetcode/100. 相同的树 .c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/Leetcode/38. 报数.c" beforeDir="false" afterPath="$PROJECT_DIR$/history/Leetcode/38. 报数.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +152,9 @@
       <workItem from="1564993353574" duration="1254000" />
       <workItem from="1565744971276" duration="1062000" />
       <workItem from="1565746985988" duration="1618000" />
-      <workItem from="1574097025790" duration="2701000" />
+      <workItem from="1574097025790" duration="4410000" />
+      <workItem from="1574175149551" duration="269000" />
+      <workItem from="1574414074007" duration="767000" />
     </task>
     <task id="LOCAL-00001" summary="change IDE">
       <created>1559996897276</created>
@@ -340,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574099322785</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="leetcode 104">
+      <created>1574100233838</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1574100233838</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +363,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -369,6 +383,7 @@
     <MESSAGE value="EightQueen" />
     <MESSAGE value="leetcode 100" />
     <MESSAGE value="leetcode 101" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode 101" />
+    <MESSAGE value="leetcode 104" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode 104" />
   </component>
 </project>
