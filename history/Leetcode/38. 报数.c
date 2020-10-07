@@ -1,4 +1,4 @@
-char *countAndSay(int n) {
+char* countAndSay(int n) {
 	if (n == 1)
 	{
 		return "1";
@@ -16,10 +16,8 @@ char *countAndSay(int n) {
 			}
 			else
 			{
-
-
 				temp = *(p + i);
-
+				/*想办法创造一个字符串，依次输入sum+temp到里面去*/
 			}
 		}
 	}

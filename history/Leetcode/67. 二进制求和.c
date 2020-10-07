@@ -1,4 +1,4 @@
-/*#include<stdio.h>
+#include<stdio.h>
 #include <stdlib.h>
 /*void main()
 {
@@ -10,14 +10,14 @@
 		printf("%c", *(p+i));
 	}
 	
-}
+}*/
 char* addBinary(char* a, char* b) {
 	int i, j, temp, temp1, lenA, lenB, len;
 	char* str;
 	lenA = strlen(a);
 	lenB = strlen(b);
 	len = lenA > lenB ? lenA : lenB;
-	str = (char*)malloc((len + 2) * sizeof(char));//ï¿½ï¿½ï¿½ï¿½Ä¿Õ¼ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¼ï¿½1+1ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½1Ö¸ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½Óºï¿½ï¿½ï¿½Ü½ï¿½Î»ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½1Ö¸ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½'\0'ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½
+	str = (char*)malloc((len + 2) * sizeof(char));//ÉêÇëµÄ¿Õ¼äÒª´óÓÚ×î´óµÄ×Ö·û´®³¤¶È¼Ó1+1£¬µÚÒ»¸ö1Ö¸×Ö·û´®Ïà¼Óºó¿ÉÄÜ½øÎ»£¬µÚ¶þ¸ö1Ö¸×Ö·û´®×îºóµÄ'\0'½áÊø×Ö·û
 	memset(str, 0, (len + 2) * sizeof(char));
 	j = len - 1; temp = 0;
 	for (i = len; i >= 0 && lenA > 0 && lenB > 0; i--) {
@@ -25,23 +25,23 @@ char* addBinary(char* a, char* b) {
 		temp = ((*(a + lenA - 1) - '0') + (*(b + lenB - 1) - '0') + temp) / 2;
 		lenA--; lenB--;
 	}
-	if (lenA == 0) {//ï¿½ï¿½ï¿½bï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¸ï¿½Öµï¿½ï¿½str
+	if (lenA == 0) {//Ôò¶Ôb×Ö·û´®½øÐÐ¸³Öµ¸østr
 		for (; lenB > 0; i--) {
 			*(str + i) = ((*(b + lenB - 1) - '0') + temp) % 2 + '0';
 			temp = ((*(b + lenB - 1) - '0') + temp) / 2;
 			lenB--;
 		}
 	}
-	else if (lenB == 0) {//ï¿½ï¿½aï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¸ï¿½Öµï¿½ï¿½str
+	else if (lenB == 0) {//¶Ôa×Ö·û´®½øÐÐ¸³Öµ¸østr
 		for (; lenA > 0; i--) {
 			*(str + i) = ((*(a + lenA - 1) - '0') + temp) % 2 + '0';
 			temp = ((*(a + lenA - 1) - '0') + temp) / 2;
 			lenA--;
 		}
 	}
-	if (temp == 1) { *(str + i) = temp + '0'; return str + i; }//ï¿½ï¿½tempï¿½ï¿½Î»Îª1ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½str
+	if (temp == 1) { *(str + i) = temp + '0'; return str + i; }//Èôtemp½øÎ»Îª1£¬Ôò¸³Öµ¸østr
 	return str + i + 1;
-}*/
+}
 
 /*char* addBinary(char* a, char* b) {
 	if (strlen(a) > strlen(b))
